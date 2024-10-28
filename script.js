@@ -74,6 +74,6 @@ document.getElementById('conditions').addEventListener('submit', function(e) {
 
 // Generar código QR
 const qr = qrcode(0, 'M');
-qr.addData('https://juanbenites1609.github.io/Prueba/');
+qr.addData('https://juanbenites1609.github.io/XD/');
 qr.make();
 document.getElementById('qrcode').innerHTML = qr.createImgTag(5);
